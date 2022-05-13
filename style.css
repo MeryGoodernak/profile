@@ -113,15 +113,36 @@ footer {
   color: #5c5744;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 855px) {
   .div_card {
-    height: 200px;
+    height: 218px;
     margin: 10px;
   }
 }
 
-@media (max-width: 540px) {
+@media (min-width: 310px)  and (max-width: 665px) {
+  .row {
+    flex-direction: column;
+  }
+  .div_card {
+    width: 95%;
+  }
+}
+
+@media (max-width: 310px) {
+  body {
+    font-size:small;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+
   .row {
     flex-direction: column;
   }
